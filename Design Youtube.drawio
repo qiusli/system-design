@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T21:59:32.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NqAAHV_vqAR0C6hN5GwH" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T22:03:31.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IV21bxn4XoVaEdt9qSxc" version="17.4.4" type="github">
   <diagram id="CR7cNoxMQPrypK98-xSv" name="Page-1">
     <mxGraphModel dx="2926" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -276,6 +276,9 @@
         </mxCell>
         <mxCell id="STJx42TGYWszfsmB1ARa-79" value="split large video into&lt;br&gt;Group of Pictures (GOP).&lt;br&gt;Each of which is independently playable." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1205" y="-245" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-82" value="&lt;b&gt;Blob Storage&lt;/b&gt;&lt;br&gt;Blob storage is a service for storing large amounts of unstructured object data, such as text or binary data. &lt;br&gt;You can use Blob storage to expose data publicly to the world, or to store application data privately. &lt;br&gt;Common uses of Blob storage include: Serving images&amp;nbsp;&lt;span&gt;or documents directly to a browser.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-255.5" y="-30" width="580" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
