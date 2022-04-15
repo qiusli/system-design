@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T04:14:34.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="29QlV7j7d12WVi-rJCO4" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T04:24:31.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="yvToxoKyVAmfnMj6SWcn" version="17.4.4" type="github">
   <diagram id="Kc_5fzsNJj1rrljEpmhN" name="Page-1">
-    <mxGraphModel dx="1466" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,18 @@
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-1" target="qmVG4XL9D6MHdwjUhQzo-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-30" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qmVG4XL9D6MHdwjUhQzo-8">
+          <mxGeometry x="-0.0472" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-1" target="qmVG4XL9D6MHdwjUhQzo-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-31" value="Websocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qmVG4XL9D6MHdwjUhQzo-25">
+          <mxGeometry x="-0.4408" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-1" value="" style="shape=mxgraph.cisco.computers_and_peripherals.web_browser;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="70" width="62" height="64" as="geometry" />
@@ -29,6 +39,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.554;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-6" target="qmVG4XL9D6MHdwjUhQzo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-6" target="qmVG4XL9D6MHdwjUhQzo-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
@@ -82,6 +95,20 @@
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-23" value="Chat Servers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-32" value="login / sign up etc." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84.6" y="130" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-33" target="qmVG4XL9D6MHdwjUhQzo-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="25" y="30" />
+              <mxPoint x="505" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-33" value="Service discovery (Zookeeper)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35.4" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
