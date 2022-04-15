@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T21:18:37.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7m8JuGQ75RnwMq4r0W58" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T21:22:00.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SsGzDCkXYNn11jQuM85s" version="17.4.4" type="github">
   <diagram id="CR7cNoxMQPrypK98-xSv" name="Page-1">
     <mxGraphModel dx="2926" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -217,6 +217,9 @@
         </mxCell>
         <mxCell id="STJx42TGYWszfsmB1ARa-62" value="tasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-530" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-65" value="&lt;b&gt;why transcode?&lt;/b&gt;&lt;br&gt;1. save space&lt;br&gt;2. convert to client side &lt;br&gt;supported format&lt;br&gt;3. transcode to different resolution &lt;br&gt;to adapt to&amp;nbsp; network bandwidth" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-154.4" y="405" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
