@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T22:03:31.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IV21bxn4XoVaEdt9qSxc" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T22:06:10.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="xKdQM7saw9ikSjdT0mDu" version="17.4.4" type="github">
   <diagram id="CR7cNoxMQPrypK98-xSv" name="Page-1">
     <mxGraphModel dx="2926" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -108,8 +108,8 @@
         <mxCell id="STJx42TGYWszfsmB1ARa-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-14" target="STJx42TGYWszfsmB1ARa-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="STJx42TGYWszfsmB1ARa-14" value="Original Storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="18" y="131" width="100" height="20" as="geometry" />
+        <mxCell id="STJx42TGYWszfsmB1ARa-14" value="Original Storage (Blob storage)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="131" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="STJx42TGYWszfsmB1ARa-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-15">
           <mxGeometry relative="1" as="geometry">
@@ -124,8 +124,8 @@
         <mxCell id="STJx42TGYWszfsmB1ARa-15" value="Transcoding Servers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="640" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="STJx42TGYWszfsmB1ARa-16" value="Transcoded Storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="12.6" y="830" width="120" height="20" as="geometry" />
+        <mxCell id="STJx42TGYWszfsmB1ARa-16" value="Transcoded Storage (Blob storage)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-27.4" y="830" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="STJx42TGYWszfsmB1ARa-17" value="Completion queue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="620" width="110" height="20" as="geometry" />
