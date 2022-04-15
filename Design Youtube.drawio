@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T21:50:10.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fcVAbPhb5WZOfNGX6IYt" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T21:59:32.501Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NqAAHV_vqAR0C6hN5GwH" version="17.4.4" type="github">
   <diagram id="CR7cNoxMQPrypK98-xSv" name="Page-1">
     <mxGraphModel dx="2926" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="STJx42TGYWszfsmB1ARa-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-1" target="STJx42TGYWszfsmB1ARa-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="STJx42TGYWszfsmB1ARa-44" value="user upload video" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="STJx42TGYWszfsmB1ARa-28">
+        <mxCell id="STJx42TGYWszfsmB1ARa-44" value="user upload video&lt;br&gt;(usually split into GOPs)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="STJx42TGYWszfsmB1ARa-28">
           <mxGeometry x="0.1752" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -234,6 +234,11 @@
             <Array as="points">
               <mxPoint x="-960" y="-400" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-80" value="GOP &amp;amp; metadata" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="STJx42TGYWszfsmB1ARa-72">
+          <mxGeometry x="0.088" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="STJx42TGYWszfsmB1ARa-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-66" target="STJx42TGYWszfsmB1ARa-69">
