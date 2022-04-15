@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T04:33:56.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="2uuVfpjqea8VDGpIkRqn" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T04:41:08.361Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="wZ-0H73bxBTyrmAcM8-L" version="17.4.4" type="github">
   <diagram id="Kc_5fzsNJj1rrljEpmhN" name="Page-1">
     <mxGraphModel dx="2076" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,6 +43,19 @@
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-6" target="qmVG4XL9D6MHdwjUhQzo-33">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-6" target="qmVG4XL9D6MHdwjUhQzo-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158" y="310" />
+              <mxPoint x="-155" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-68" value="login / logout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qmVG4XL9D6MHdwjUhQzo-66">
+          <mxGeometry x="0.3169" y="2" relative="1" as="geometry">
+            <mxPoint x="28" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
           <mxGeometry x="155.4" y="330" width="39.2" height="70" as="geometry" />
@@ -112,6 +125,19 @@
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-36" target="qmVG4XL9D6MHdwjUhQzo-37">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-36" target="qmVG4XL9D6MHdwjUhQzo-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="750" />
+              <mxPoint x="-330" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-71" value="heartbeat every 5 sec,&lt;br&gt;if presence server does not receive any&lt;br&gt;heartbeat in a period of time then the user&#39;s&amp;nbsp;&lt;br&gt;status is updated to offline" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qmVG4XL9D6MHdwjUhQzo-70">
+          <mxGeometry x="0.2268" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-36" value="User 1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-90" y="720" width="30" height="60" as="geometry" />
@@ -191,6 +217,26 @@
         </mxCell>
         <mxCell id="qmVG4XL9D6MHdwjUhQzo-63" value="General Design" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="170" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qmVG4XL9D6MHdwjUhQzo-64" target="qmVG4XL9D6MHdwjUhQzo-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-155" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-67" value="User A: {status: online, last_active_at: xxx}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qmVG4XL9D6MHdwjUhQzo-65">
+          <mxGeometry x="-0.7032" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-69" value="User A: {statis: offline}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="qmVG4XL9D6MHdwjUhQzo-65">
+          <mxGeometry x="-0.492" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qmVG4XL9D6MHdwjUhQzo-64" value="Presence Server" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
