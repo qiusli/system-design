@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T19:41:17.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="eTWzDtcJkcR0kbJdXOIE" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T19:43:54.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Bk8selm5jchijbRhwZMU" version="17.4.4" type="github">
   <diagram id="5oaqmLejIBLVlqCtvISB" name="Page-1">
     <mxGraphModel dx="1226" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,8 +31,13 @@
         <mxCell id="7zzk4bBtbLMsu9TvIBiW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7zzk4bBtbLMsu9TvIBiW-7" target="7zzk4bBtbLMsu9TvIBiW-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7zzk4bBtbLMsu9TvIBiW-40" value="update weekly" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="7zzk4bBtbLMsu9TvIBiW-22">
+          <mxGeometry x="-0.3437" y="3" relative="1" as="geometry">
+            <mxPoint x="18" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7zzk4bBtbLMsu9TvIBiW-7" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.server_rack" vertex="1" parent="1">
-          <mxGeometry x="620" y="65" width="60" height="60" as="geometry" />
+          <mxGeometry x="590" y="65" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7zzk4bBtbLMsu9TvIBiW-9" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
           <mxGeometry x="778" y="68.5" width="71.62" height="53" as="geometry" />
@@ -58,6 +63,11 @@
         <mxCell id="7zzk4bBtbLMsu9TvIBiW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7zzk4bBtbLMsu9TvIBiW-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="815" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zzk4bBtbLMsu9TvIBiW-41" value="weekly snapshot of DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="7zzk4bBtbLMsu9TvIBiW-25">
+          <mxGeometry x="-0.28" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7zzk4bBtbLMsu9TvIBiW-16" value="Trie Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
