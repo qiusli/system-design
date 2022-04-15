@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T21:31:00.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="OUgSitOGbDrGmF5hwJyZ" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T21:50:10.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fcVAbPhb5WZOfNGX6IYt" version="17.4.4" type="github">
   <diagram id="CR7cNoxMQPrypK98-xSv" name="Page-1">
-    <mxGraphModel dx="2926" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2926" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,6 +201,14 @@
         <mxCell id="STJx42TGYWszfsmB1ARa-51" value="thumbnail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="260" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF8000;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-52" target="STJx42TGYWszfsmB1ARa-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-570" y="200" />
+              <mxPoint x="-960" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="STJx42TGYWszfsmB1ARa-52" value="video transcode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -220,6 +228,49 @@
         </mxCell>
         <mxCell id="STJx42TGYWszfsmB1ARa-65" value="&lt;b&gt;why transcode?&lt;/b&gt;&lt;br&gt;1. save space&lt;br&gt;2. convert to client side &lt;br&gt;supported format&lt;br&gt;3. transcode to different resolution &lt;br&gt;to adapt to&amp;nbsp; network bandwidth" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-154.4" y="405" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-66" target="STJx42TGYWszfsmB1ARa-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-960" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-66" target="STJx42TGYWszfsmB1ARa-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-66" value="Preprocessor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-67" target="STJx42TGYWszfsmB1ARa-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-67" target="STJx42TGYWszfsmB1ARa-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-67" value="Task Workers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-68" target="STJx42TGYWszfsmB1ARa-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-68" value="Resource Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="STJx42TGYWszfsmB1ARa-69" target="STJx42TGYWszfsmB1ARa-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-69" value="DAG scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-70" value="Output" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-71" value="Temporary Storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STJx42TGYWszfsmB1ARa-79" value="split large video into&lt;br&gt;Group of Pictures (GOP).&lt;br&gt;Each of which is independently playable." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1205" y="-245" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
