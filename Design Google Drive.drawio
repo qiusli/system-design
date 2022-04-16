@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T03:02:16.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MNEK6QoTxQketMtM5HB7" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T03:07:42.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="XeH2d_xvUEBQm8-1je_V" version="17.4.4" type="github">
   <diagram id="29p5LE3giyR2FmPPd1-d" name="Page-1">
-    <mxGraphModel dx="1226" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,6 +97,15 @@
         </mxCell>
         <mxCell id="Y1PJ7guWR0XEdS4HQoee-18" value="Cold Storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="144.6" y="650" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1PJ7guWR0XEdS4HQoee-31" value="Block servers upload blocks to cloud storage. Block storage, referred to as block-level storage,&lt;br&gt;&amp;nbsp;is a technology to store data files on cloud-based environments. A file can be split into several blocks, &lt;br&gt;each with a unique hash value, stored in our metadata database. Each block is treated as an independent &lt;br&gt;object and stored in our storage system (S3).&amp;nbsp;&lt;span&gt;To reconstruct a file, blocks are joined in a particular order.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-417" y="140" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1PJ7guWR0XEdS4HQoee-32" value="e.g.S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="113" y="421.5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1PJ7guWR0XEdS4HQoee-33" value="Cold storage is a computer system designed for storing inactive data, &lt;br&gt;meaning files are not accessed for a long time." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="585" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
